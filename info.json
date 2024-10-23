@@ -1,10 +1,13 @@
 {
   "name": "equal-length-underground-belts",
-  "version": "0.1.1",
+  "version": "1.0.0",
   "title": "Equal Length Underground Belts",
   "author": "Mark Karmar",
   "homepage": "https://github.com/MKarmar/Factorio_equal-length-underground-belts",
-  "factorio_version": "1.1",
-  "dependencies": ["base"],
+  "factorio_version": "2.0",
+  "dependencies": [
+    "base >= 2.0.0",
+    "(?) space-age >= 2.0.0"
+    ],
   "description": "Simple mod, that enables the user to easily upgrade using the upgrade planner without having to rework underground belts. The chosen length is 8 thereby equal to the length of the Express Underground Belt."
 }
